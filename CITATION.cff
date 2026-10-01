@@ -1,0 +1,111 @@
+cff-version: 1.2.0
+message: >-
+  This repository ports other people's work. Please cite Diffusion Policy, gym-pusht, LeRobot
+  and the other works listed in references, not only this repository.
+title: "pusht-jax: Push-T in JAX"
+type: software
+authors:
+  - given-names: Misha
+    family-names: Lvovsky
+license-url: "https://gist.github.com/NicolasCARPi/3fd349ed1ed52ae6b835d5364cda4cd6"
+references:
+  - type: conference-paper
+    title: "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion"
+    authors:
+      - {given-names: Cheng, family-names: Chi}
+      - {given-names: Siyuan, family-names: Feng}
+      - {given-names: Yilun, family-names: Du}
+      - {given-names: Zhenjia, family-names: Xu}
+      - {given-names: Eric, family-names: Cousineau}
+      - {given-names: Benjamin, family-names: Burchfiel}
+      - {given-names: Shuran, family-names: Song}
+    year: 2023
+    conference: {name: "Robotics: Science and Systems (RSS)"}
+  - type: article
+    title: "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion"
+    authors:
+      - {given-names: Cheng, family-names: Chi}
+      - {given-names: Zhenjia, family-names: Xu}
+      - {given-names: Siyuan, family-names: Feng}
+      - {given-names: Eric, family-names: Cousineau}
+      - {given-names: Yilun, family-names: Du}
+      - {given-names: Benjamin, family-names: Burchfiel}
+      - {given-names: Russ, family-names: Tedrake}
+      - {given-names: Shuran, family-names: Song}
+    year: 2024
+    journal: "The International Journal of Robotics Research"
+    identifiers:
+      - {type: other, value: "arXiv:2303.04137"}
+  - type: conference-paper
+    title: "Implicit Behavioral Cloning"
+    authors:
+      - {given-names: Pete, family-names: Florence}
+      - {given-names: Corey, family-names: Lynch}
+      - {given-names: Andy, family-names: Zeng}
+      - {given-names: Oscar, family-names: Ramirez}
+      - {given-names: Ayzaan, family-names: Wahid}
+      - {given-names: Laura, family-names: Downs}
+      - {given-names: Adrian, family-names: Wong}
+      - {given-names: Johnny, family-names: Lee}
+      - {given-names: Igor, family-names: Mordatch}
+      - {given-names: Jonathan, family-names: Tompson}
+    year: 2021
+    conference: {name: "Conference on Robot Learning (CoRL)"}
+  - type: software
+    title: "gym-pusht"
+    authors:
+      - {given-names: Rémi, family-names: Cadène}
+      - {given-names: Quentin, family-names: Gallouédec}
+      - {given-names: Alexander, family-names: Soare}
+      - {given-names: Simon, family-names: Alibert}
+    year: 2024
+    version: "0.1.6"
+    license: Apache-2.0
+    url: "https://github.com/huggingface/gym-pusht"
+  - type: software
+    title: "LeRobot: State-of-the-art Machine Learning for Real-World Robotics in Pytorch"
+    authors:
+      - {given-names: Remi, family-names: Cadene}
+      - {given-names: Simon, family-names: Alibert}
+      - {given-names: Alexander, family-names: Soare}
+      - {given-names: Quentin, family-names: Gallouedec}
+      - {given-names: Adil, family-names: Zouitine}
+      - {given-names: Steven, family-names: Palma}
+      - {given-names: Pepijn, family-names: Kooijmans}
+      - {given-names: Michel, family-names: Aractingi}
+      - {given-names: Mustafa, family-names: Shukor}
+      - {given-names: Dana, family-names: Aubakirova}
+      - {given-names: Martino, family-names: Russi}
+      - {given-names: Francesco, family-names: Capuano}
+      - {given-names: Caroline, family-names: Pascal}
+      - {given-names: Jade, family-names: Choghari}
+      - {given-names: Khalil, family-names: Meftah}
+      - {given-names: Maxime, family-names: Ellerbach}
+      - {given-names: Jess, family-names: Moss}
+      - {given-names: Thomas, family-names: Wolf}
+    year: 2024
+    url: "https://github.com/huggingface/lerobot"
+  - type: data
+    title: "lerobot/pusht_keypoints"
+    authors:
+      - {name: "LeRobot, Hugging Face"}
+    license: Apache-2.0
+    url: "https://huggingface.co/datasets/lerobot/pusht_keypoints"
+  - type: software
+    title: "Chipmunk2D"
+    authors:
+      - {given-names: Scott, family-names: Lembcke}
+      - {name: "Howling Moon Software"}
+    license: MIT
+    url: "https://github.com/slembcke/Chipmunk2D"
+  - type: software
+    title: "pymunk"
+    authors:
+      - {given-names: Victor, family-names: Blomqvist}
+    license: MIT
+    url: "https://www.pymunk.org"
+  - type: software
+    title: "Box2D"
+    authors:
+      - {given-names: Erin, family-names: Catto}
+    url: "https://box2d.org"
